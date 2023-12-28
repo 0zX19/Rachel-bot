@@ -1,0 +1,106 @@
+{"level":30,"time":1700305504622,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Validating config file and environment variables"}
+{"level":30,"time":1700305506975,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Loading commands..."}
+{"level":20,"time":1700305513103,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1700305513144,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1700305514817,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1700305515641,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1700305515660,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1700305515670,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1700305515681,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1700305515778,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1700305515844,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1700305515854,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1700305516995,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1700305517021,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1700305517050,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1700305518400,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1700305518445,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1700305518457,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1700305518474,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1700305518483,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1700305519188,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1700305519200,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1700305519340,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1700305519352,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1700305519381,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1700305519471,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1700305520072,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1700305520079,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1700305520086,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1700305520116,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command restart. Disabled!"}
+{"level":30,"time":1700305520599,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Loaded 89 commands"}
+{"level":30,"time":1700305520600,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Loaded 69 slash commands"}
+{"level":30,"time":1700305520630,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Loading contexts..."}
+{"level":30,"time":1700305520811,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1700305520812,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1700305520813,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Loading events..."}
+{"level":30,"time":1700305521904,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1700305523765,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1700305523964,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1700305525312,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1700305528054,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Logged in as Haruka TESTER#6563! (854172168836481084)"}
+{"level":20,"time":1700305528058,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: creating websocket..."}
+{"level":30,"time":1700305528068,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Music Manager initialized"}
+{"level":30,"time":1700305528068,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1700305528513,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Giveaway Manager initialized"}
+{"level":20,"time":1700305528693,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: lavaclient <<< ready: {\"resumed\":false,\"sessionId\":\"jz4xfy6lrifo5pwy\",\"op\":\"ready\"}"}
+{"level":20,"time":1700305528696,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: lavaclient <<< stats: {\"players\":5,\"playingPlayers\":0,\"uptime\":61944403,\"memory\":{\"free\":417511832,\"used\":259868264,\"allocated\":677380096,\"reservable\":7889485824},\"cpu\":{\"cores\":8,\"systemLoad\":0.008477842003853564,\"lavalinkLoad\":0.0015413070283600493},\"op\":\"stats\"}"}
+{"level":30,"time":1700305528697,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" connected"}
+{"level":20,"time":1700305528698,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: connected in 630ms"}
+{"level":30,"time":1700305529046,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Successfully registered interactions"}
+{"level":20,"time":1700305588660,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: lavaclient <<< stats: {\"players\":5,\"playingPlayers\":0,\"uptime\":62004402,\"memory\":{\"free\":415213248,\"used\":262166848,\"allocated\":677380096,\"reservable\":7889485824},\"cpu\":{\"cores\":8,\"systemLoad\":0.004248744689069139,\"lavalinkLoad\":0.0011566933991363356},\"op\":\"stats\"}"}
+{"level":20,"time":1700305648659,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: lavaclient <<< stats: {\"players\":5,\"playingPlayers\":0,\"uptime\":62064402,\"memory\":{\"free\":413098448,\"used\":264281648,\"allocated\":677380096,\"reservable\":7889485824},\"cpu\":{\"cores\":8,\"systemLoad\":0.004633204633204633,\"lavalinkLoad\":0.001156336725254394},\"op\":\"stats\"}"}
+{"level":20,"time":1700305708661,"pid":2460,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: lavaclient <<< stats: {\"players\":5,\"playingPlayers\":0,\"uptime\":62124402,\"memory\":{\"free\":410652920,\"used\":266727176,\"allocated\":677380096,\"reservable\":7889485824},\"cpu\":{\"cores\":8,\"systemLoad\":0.005403319181783096,\"lavalinkLoad\":7.70891150169596E-4},\"op\":\"stats\"}"}
+{"level":30,"time":1700305856467,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Validating config file and environment variables"}
+{"level":30,"time":1700305862230,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Loading commands..."}
+{"level":20,"time":1700305869367,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1700305869408,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1700305870293,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1700305870324,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1700305870340,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1700305870407,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1700305870421,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1700305870439,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1700305870499,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1700305870512,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1700305870885,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1700305870896,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1700305870906,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1700305870914,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1700305870929,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1700305870960,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1700305871003,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1700305871014,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1700305871024,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1700305871037,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1700305871049,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1700305871087,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1700305871145,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1700305871154,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1700305871330,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1700305871340,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1700305871524,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1700305871532,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Skipping slash command restart. Disabled!"}
+{"level":30,"time":1700305871739,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Loaded 89 commands"}
+{"level":30,"time":1700305871739,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Loaded 69 slash commands"}
+{"level":30,"time":1700305871740,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Loading contexts..."}
+{"level":30,"time":1700305871787,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1700305871787,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1700305871788,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Loading events..."}
+{"level":30,"time":1700305872403,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1700305873548,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1700305873549,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1700305874598,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1700305876977,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Logged in as Haruka TESTER#6563! (854172168836481084)"}
+{"level":20,"time":1700305876979,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: creating websocket..."}
+{"level":30,"time":1700305876984,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Music Manager initialized"}
+{"level":30,"time":1700305876984,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1700305877130,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Giveaway Manager initialized"}
+{"level":20,"time":1700305877518,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: lavaclient <<< ready: {\"resumed\":false,\"sessionId\":\"1ytxep2dtud3jul2\",\"op\":\"ready\"}"}
+{"level":20,"time":1700305877519,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: lavaclient <<< stats: {\"players\":5,\"playingPlayers\":0,\"uptime\":62293223,\"memory\":{\"free\":405599664,\"used\":271780432,\"allocated\":677380096,\"reservable\":7889485824},\"cpu\":{\"cores\":8,\"systemLoad\":0.007203812479219772,\"lavalinkLoad\":9.94431185361973E-4},\"op\":\"stats\"}"}
+{"level":30,"time":1700305877520,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" connected"}
+{"level":20,"time":1700305877520,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: connected in 536ms"}
+{"level":30,"time":1700305877970,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Successfully registered interactions"}
+{"level":20,"time":1700305937555,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: lavaclient <<< stats: {\"players\":5,\"playingPlayers\":0,\"uptime\":62353222,\"memory\":{\"free\":404535312,\"used\":272844784,\"allocated\":677380096,\"reservable\":7889485824},\"cpu\":{\"cores\":8,\"systemLoad\":0.00420726306465899,\"lavalinkLoad\":7.735148514851486E-4},\"op\":\"stats\"}"}
+{"level":20,"time":1700305997499,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: lavaclient <<< stats: {\"players\":5,\"playingPlayers\":0,\"uptime\":62413222,\"memory\":{\"free\":402436112,\"used\":274943984,\"allocated\":677380096,\"reservable\":7889485824},\"cpu\":{\"cores\":8,\"systemLoad\":0.005092438835381379,\"lavalinkLoad\":8.840951286358412E-4},\"op\":\"stats\"}"}
+{"level":20,"time":1700306057500,"pid":5160,"hostname":"DESKTOP-STI39UV","msg":"Node \"Haruka Music\" debug: connection: lavaclient <<< stats: {\"players\":5,\"playingPlayers\":0,\"uptime\":62473222,\"memory\":{\"free\":399611360,\"used\":277768736,\"allocated\":677380096,\"reservable\":7889485824},\"cpu\":{\"cores\":8,\"systemLoad\":0.00420493526612814,\"lavalinkLoad\":7.735148514851486E-4},\"op\":\"stats\"}"}
