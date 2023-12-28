@@ -64,19 +64,19 @@ if (message.content.match("run") || message.content.match("Run")) {
   let isCommand = false;
   if (PREFIX_COMMANDS.ENABLED) {
     // check for bot mentions
-    if (message.content.includes(`${client.user.id}`)) {
-       const row2 = new ActionRowBuilder()
-      .addComponents(new ButtonBuilder().setEmoji("<:paypal:1148981240695885837>").setURL("https://www.paypal.com/paypalme/andrih1997").setStyle(ButtonStyle.Link))
-      .addComponents(new ButtonBuilder().setEmoji("<:saweria:1151962187477299220>").setURL("https://saweria.co/andrih").setStyle(ButtonStyle.Link))
-      const embed = new EmbedBuilder()
-      .setAuthor({ name: client.user.username, iconURL: client.user.displayAvatarURL({ dynamic: true })})
-      .setColor("Red")
-      .setDescription(`${client.user.username}'s prefix on the **${message.guild.name}** server is \`\`${settings.prefix}\`\`. Use the \`\`${settings.prefix}help\`\` command to see the entire list of available commands.`)
-      .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
-      .setFooter({ text: client.user.username, iconURL: client.user.displayAvatarURL({ dynamic: true })});
+    // if (message.content.includes(`${client.user.id}`)) {
+    //    const row2 = new ActionRowBuilder()
+    //   .addComponents(new ButtonBuilder().setEmoji("<:paypal:1148981240695885837>").setURL("https://www.paypal.com/paypalme/andrih1997").setStyle(ButtonStyle.Link))
+    //   .addComponents(new ButtonBuilder().setEmoji("<:saweria:1151962187477299220>").setURL("https://saweria.co/andrih").setStyle(ButtonStyle.Link))
+    //   const embed = new EmbedBuilder()
+    //   .setAuthor({ name: client.user.username, iconURL: client.user.displayAvatarURL({ dynamic: true })})
+    //   .setColor("Red")
+    //   .setDescription(`${client.user.username}'s prefix on the **${message.guild.name}** server is \`\`${settings.prefix}\`\`. Use the \`\`${settings.prefix}help\`\` command to see the entire list of available commands.`)
+    //   .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
+    //   .setFooter({ text: client.user.username, iconURL: client.user.displayAvatarURL({ dynamic: true })});
 
-      message.channel.safeSend({ embeds: [embed], components: [row2] });
-    }
+    //   message.channel.safeSend({ embeds: [embed], components: [row2] });
+    // }
 
     if (message.content && message.content.startsWith(settings.prefix)) {
       const invoke = message.content.replace(`${settings.prefix}`, "").split(/\s+/)[0];
