@@ -64,8 +64,8 @@ if (message.content.match("run") || message.content.match("Run")) {
 client.on("guildMemberAdd", async (member) => {
   if (member.user.bot) return;
   if (!member && !member.guild && !member.guild.id) return;
-  const guild = client.guilds.cache.get("878766471537373184");
-  const channel = guild.channels.cache.get("1092431233667051572")
+  const guild = client.guilds.cache.get("1178931321834307636");
+  const channel = guild.channels.cache.get("1189861389221756979")
   if (member.user.username.length > 25)
     member.user.username = member.user.username.slice(0, 25) + "...";
   if (member.guild.name.length > 15)
