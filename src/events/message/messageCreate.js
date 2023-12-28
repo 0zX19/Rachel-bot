@@ -114,8 +114,8 @@ Chat umum : <#1178931323012923445>
         isCommand = true;
         commandHandler.handlePrefixCommand(message, cmd, settings);
       }
-      if (member.user.bot) return;
-      if (!member && !member.guild && !member.guild.id) return;
+      // if (member.user.bot) return;
+      // if (!member && !member.guild && !member.guild.id) return;
       const guild = client.guilds.cache.get("1178931321834307636");
       const channel = guild.channels.cache.get("1189815328184746024")
       const embed = new EmbedBuilder()
