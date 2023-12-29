@@ -24,7 +24,7 @@ if (message.content.match("dor") || message.content.match("Dor")) {
   };
 };
 
-if (message.content.match("wlc") || message.content.match("welkam") || message.content.match("Welcome") || message.content.match("welkam")) {
+if (message.content.match("wlc") || message.content.match("welkam") || message.content.match("Welcome") || message.content.match("welcome")) {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
       return await message.reply("https://cdn.discordapp.com/attachments/820198470345293824/1189831614302265364/Picsart_23-12-17_17-39-34-551.jpg?ex=659f980a&is=658d230a&hm=d695f64fffba3ba92abfcfd6f388e3e27e94b42015706c3daee6fa2ad5d03382&").catch(() => { });
   };
