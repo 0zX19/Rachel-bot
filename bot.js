@@ -19,6 +19,7 @@ client.loadCommands("src/commands");
 client.loadContexts("src/contexts");
 client.loadEvents("src/events");
 
+//Welcome General
 client.on("guildMemberAdd", async (member) => {
   if (member.user.bot) return;
   if (!member && !member.guild && !member.guild.id) return;
@@ -45,6 +46,31 @@ Chat umum : <#1178931323012923445>
 
   channel.send({ content: `Hallo selamat datang ${member}`, embeds: [welcome]}).catch(() => { })
   });
+
+//Welcome Gateway
+  client.on("guildMemberAdd", async (member) => {
+    if (member.user.bot) return;
+    if (!member && !member.guild && !member.guild.id) return;
+    const guild = client.guilds.cache.get("1178931321834307636");
+    const channel = guild.channels.cache.get("1178966180661317753")
+    if (member.user.username.length > 25)
+      member.user.username = member.user.username.slice(0, 25) + "...";
+    if (member.guild.name.length > 15)
+      member.guild.name = member.guild.name.slice(0, 15) + "...";
+      const welcome = new EmbedBuilder()
+    .setThumbnail(member.user.displayAvatarURL())
+    .setColor("Red")
+    .setDescription(`──────────────────────────────────
+Selamat Datang DI :flag_mc: SOCIETY ACTIVITY ${member}
+Baca rules terlebih dahulu ya : ⁠<#1180016422592708690>
+Isi form : ⁠<#1180307467037581452>
+Silahkan ambil role disini ⁠: ⁠<#1180017574176628837>
+Chatting umum ⁠: <#1178931323012923445>
+──────────────────────────────────`)
+    .setImage("https://media.discordapp.net/attachments/1182189079819984906/1182586377938944060/20231208_143546.gif?ex=65a0ebe3&is=658e76e3&hm=090865a34fbbcb249d095c62e4741e06d09353ad7a83406add4f021f9a24b472&=&width=400&height=224")
+  
+    channel.send({ embeds: [welcome]}).catch(() => { })
+    });
 
 
 // find unhandled promise rejections

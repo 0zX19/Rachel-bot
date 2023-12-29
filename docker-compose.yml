@@ -1,0 +1,26 @@
+services:
+  bot:
+    build: ./
+    container_name: activitybot
+    environment:
+    - BOT_TOKEN=MTE4OTgxODE0MDk4NTY3MTc1MA.Gcvr4q.NBKkjSC8soQaF86_3CciKsxQGkjXLUVjWvEW4E
+    - MONGO_CONNECTION=mongodb+srv://avr02595:c3d1l123@cluster0.ctkgw.mongodb.net/activity?retryWrites=true&w=majority
+    - ERROR_LOGS=https://discord.com/api/webhooks/1189820754922049606/zvlgCk3xfATxSq99GWlkWMC9w-Z7CQB7uqy3gwIREy24BBNYWygKvqcK6_TwsD1LJaHS
+    - JOIN_LEAVE_LOGS=https://discord.com/api/webhooks/1154520476228522126/MHYrgG1feZA40Ca-OrjiZomFTp4PrpS2eZZwV9HQ3kfpHXrUdzfboz_t2S5aHD50mYof
+    - BOT_SECRET=lcgug72bO6uXjcWtSTpkhJkWrsegzN-f
+    - STRANGE_API_KEY=NjUwZGUzNDUwNzQ2MjA3ZWRlNzJhZjgz.8ubk7G9c6O7zgi5WU7LCbCuY2NdX87nt8N8HxvXtA0
+    - WEATHERSTACK_KEY=024775b6ac2fa48a6bfb352a2cf41263
+    - SESSION_PASSWORD=8080
+    - LAVALINK_NODES=n1.ll.darrennathanael.com
+    - LAVALINK_PORT=2269
+    - LAVALINK_PASSWORD=glasshost1984
+    - SPOTIFY_CLIENT_ID=80eed882264945059747109fd330e2c5
+    - SPOTIFY_CLIENT_SECRET=40fa8c30c3f64629940023cacc77cffb
+
+    networks:
+      - society
+    restart: always
+
+networks:
+  society:
+    external: false
