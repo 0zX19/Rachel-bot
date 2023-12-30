@@ -32,7 +32,7 @@ if (message.content.match("wlc") || message.content.match("welkam") || message.c
 
 if (message.content.match("kiss") || message.content.match("Kiss")) {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
-      return await message.reply("https://cdn.discordapp.com/emojis/1188901785339953342.gif?size=80&quality=lossless").catch(() => { });
+      return await message.reply("https://cdn.discordapp.com/emojis/1185361211144016045.gif?size=80&quality=lossless").catch(() => { });
   };
 };
 
