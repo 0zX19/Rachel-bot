@@ -36,7 +36,7 @@ module.exports = {
     // Owner commands
     if (cmd.category === "OWNER" && !OWNER_IDS.includes(message.author.id)) {
       const embed = new EmbedBuilder()
-      .setColor("White")
+      .setColor("Red")
       .setDescription("This command is only accessible to bot owners")
       return message.safeReply({ embeds: [embed] });
     }
