@@ -35,17 +35,17 @@ module.exports = {
     ],
   },
 
-  async messageRun(message, args, client) {
-    const query = args.join(" ");
-    const response = await play(message, query);
-    await message.safeReply(response);
-  },
+  // async messageRun(message, args, client) {
+  //   const query = args.join(" ");
+  //   const response = await play(message, query);
+  //   await message.safeReply(response);
+  // },
 
-  async interactionRun(interaction, client) {
-    const query = interaction.options.getString("query");
-    const response = await play(interaction, query);
-    await interaction.followUp(response);
-  },
+  // async interactionRun(interaction, client) {
+  //   const query = interaction.options.getString("query");
+  //   const response = await play(interaction, query);
+  //   await interaction.followUp(response);
+  // },
 };
 
 /**

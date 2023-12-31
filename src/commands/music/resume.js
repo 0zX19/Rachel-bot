@@ -16,29 +16,29 @@ module.exports = {
     enabled: true,
   },
 
-  async messageRun(client, message, args) {
-    const response = resumePlayer(message);
-    const embed = new EmbedBuilder()
-    .setDescription(response)
-    .setColor("Red")
-    await message.safeReply({ embeds: [embed] });
-  },
+  // async messageRun(client, message, args) {
+  //   const response = resumePlayer(message);
+  //   const embed = new EmbedBuilder()
+  //   .setDescription(response)
+  //   .setColor("Red")
+  //   await message.safeReply({ embeds: [embed] });
+  // },
 
-  async interactionRun(interaction) {
-    const response = resumePlayer(interaction);
-    const embed = new EmbedBuilder()
-    .setDescription(response)
-    .setColor("White")
-    await interaction.followUp({ embeds: [embed] });
-  },
+  // async interactionRun(interaction) {
+  //   const response = resumePlayer(interaction);
+  //   const embed = new EmbedBuilder()
+  //   .setDescription(response)
+  //   .setColor("White")
+  //   await interaction.followUp({ embeds: [embed] });
+  // },
 };
 
 /**
  * @param {import("discord.js").CommandInteraction|import("discord.js").Message} arg0
  */
-function resumePlayer({ client, guildId }) {
-  const player = client.musicManager.getPlayer(guildId);
-  if (!player.paused) return "The player is already resumed";
-  player.resume();
-  return "▶️ Resumed the music player";
-}
+// function resumePlayer({ client, guildId }) {
+//   const player = client.musicManager.getPlayer(guildId);
+//   if (!player.paused) return "The player is already resumed";
+//   player.resume();
+//   return "▶️ Resumed the music player";
+// }

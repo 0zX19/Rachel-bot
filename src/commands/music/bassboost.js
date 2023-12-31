@@ -18,7 +18,7 @@ module.exports = {
   validations: musicValidations,
   command: {
     aliases: ["bass"],
-    enabled: true,
+    enabled: false,
     minArgsCount: 1,
     usage: "<none|low|medium|high>",
   },

@@ -16,28 +16,28 @@ module.exports = {
     enabled: true,
   },
 
-  async messageRun(client, message, args) {
-    const response = shuffle(message);
-    const embed = new EmbedBuilder()
-    .setDescription(response)
-    .setColor(client.color)
-    await message.safeReply({ embeds: [embed] });
-  },
+  // async messageRun(client, message, args) {
+  //   const response = shuffle(message);
+  //   const embed = new EmbedBuilder()
+  //   .setDescription(response)
+  //   .setColor(client.color)
+  //   await message.safeReply({ embeds: [embed] });
+  // },
 
-  async interactionRun(interaction) {
-    const response = shuffle(interaction);
-    const embed = new EmbedBuilder()
-    .setDescription(response)
-    .setColor("Red")
-    await interaction.followUp({ embeds: [embed] });
-  },
+  // async interactionRun(interaction) {
+  //   const response = shuffle(interaction);
+  //   const embed = new EmbedBuilder()
+  //   .setDescription(response)
+  //   .setColor("Red")
+  //   await interaction.followUp({ embeds: [embed] });
+  // },
 };
 
 /**
  * @param {import("discord.js").CommandInteraction|import("discord.js").Message} arg0
  */
-function shuffle({ client, guildId }) {
-  const player = client.musicManager.getPlayer(guildId);
-  player.queue.shuffle();
-  return "🎶 Queue has been shuffled";
-}
+// function shuffle({ client, guildId }) {
+//   const player = client.musicManager.getPlayer(guildId);
+//   player.queue.shuffle();
+//   return "🎶 Queue has been shuffled";
+// }

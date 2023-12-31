@@ -37,42 +37,42 @@ module.exports = {
     ],
   },
 
-  async messageRun(message, args) {
-    const input = args[0].toLowerCase();
-    const type = input === "queue" ? "queue" : "track";
-    const response = toggleLoop(message, type);
-    const embed = new EmbedBuilder()
-    .setDescription(response)
-    .setColor("Red")
-    await message.safeReply({ embeds: [embed] });
-  },
+  // async messageRun(message, args) {
+  //   const input = args[0].toLowerCase();
+  //   const type = input === "queue" ? "queue" : "track";
+  //   const response = toggleLoop(message, type);
+  //   const embed = new EmbedBuilder()
+  //   .setDescription(response)
+  //   .setColor("Red")
+  //   await message.safeReply({ embeds: [embed] });
+  // },
 
-  async interactionRun(interaction) {
-    const type = interaction.options.getString("type") || "track";
-    const response = toggleLoop(interaction, type);
-    const embed = new EmbedBuilder()
-    .setDescription(response)
-    .setColor("White")
-    await interaction.followUp({ embeds: [embed] });
-  },
+  // async interactionRun(interaction) {
+  //   const type = interaction.options.getString("type") || "track";
+  //   const response = toggleLoop(interaction, type);
+  //   const embed = new EmbedBuilder()
+  //   .setDescription(response)
+  //   .setColor("White")
+  //   await interaction.followUp({ embeds: [embed] });
+  // },
 };
 
 /**
  * @param {import("discord.js").CommandInteraction|import("discord.js").Message} arg0
  * @param {"queue"|"track"} type
  */
-function toggleLoop({ client, guildId }, type) {
-  const player = client.musicManager.getPlayer(guildId);
+// function toggleLoop({ client, guildId }, type) {
+//   const player = client.musicManager.getPlayer(guildId);
 
-  // track
-  if (type === "track") {
-    player.queue.setLoop(LoopType.Song);
-    return "Loop mode is set to `track`";
-  }
+//   // track
+//   if (type === "track") {
+//     player.queue.setLoop(LoopType.Song);
+//     return "Loop mode is set to `track`";
+//   }
 
-  // queue
-  else if (type === "queue") {
-    player.queue.setLoop(1);
-    return "Loop mode is set to `queue`";
-  }
-}
+//   // queue
+//   else if (type === "queue") {
+//     player.queue.setLoop(1);
+//     return "Loop mode is set to `queue`";
+//   }
+// }

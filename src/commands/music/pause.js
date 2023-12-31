@@ -16,30 +16,30 @@ module.exports = {
     enabled: true,
   },
 
-  async messageRun(message, args) {
-    const response = pause(message);
-    const embed = new EmbedBuilder()
-    .setDescription(response)
-    .setColor("Red")
-    await message.safeReply({ embeds: [embed] });
-  },
+  // async messageRun(message, args) {
+  //   const response = pause(message);
+  //   const embed = new EmbedBuilder()
+  //   .setDescription(response)
+  //   .setColor("Red")
+  //   await message.safeReply({ embeds: [embed] });
+  // },
 
-  async interactionRun(interaction) {
-    const response = pause(interaction);
-    const embed = new EmbedBuilder()
-    .setDescription(response)
-    .setColor("White")
-    await interaction.followUp({ embeds: [embed] });
-  },
+  // async interactionRun(interaction) {
+  //   const response = pause(interaction);
+  //   const embed = new EmbedBuilder()
+  //   .setDescription(response)
+  //   .setColor("White")
+  //   await interaction.followUp({ embeds: [embed] });
+  // },
 };
 
 /**
  * @param {import("discord.js").CommandInteraction|import("discord.js").Message} arg0
  */
-function pause({ client, guildId }) {
-  const player = client.musicManager.getPlayer(guildId);
-  if (player.paused) return "The player is already paused.";
+// function pause({ client, guildId }) {
+//   const player = client.musicManager.getPlayer(guildId);
+//   if (player.paused) return "The player is already paused.";
 
-  player.pause(true);
-  return "⏸️ Paused the music player.";
-}
+//   player.pause(true);
+//   return "⏸️ Paused the music player.";
+// }

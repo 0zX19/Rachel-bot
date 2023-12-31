@@ -129,9 +129,7 @@ async function getHelpMenu({ client }) {
   const embed = new EmbedBuilder()
     .setColor(EMBED_COLORS.BOT_EMBED)
     .setThumbnail(client.user.displayAvatarURL())
-    .setDescription(
-      `\`\`\`js\nExtra information: <> If you see any error or any kind of bug please report to us!\`\`\`\n\n
-      
+    .setDescription(`
       <:kanan:1154667974733611068> **Command Categories:**
       ${emo.admin} **|** \`Admin\`
       ${emo.information} **|** \`Information\`

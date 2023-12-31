@@ -27,37 +27,37 @@ module.exports = {
     ],
   },
 
-  async messageRun(client, message, args) {
-    const time = args.join(" ");
-    const response = seekTo(message, time);
-    const embed = new EmbedBuilder()
-    .setDescription(response)
-    .setColor("Red")
-    await message.safeReply({ embeds: [embed] });
-  },
+  // async messageRun(client, message, args) {
+  //   const time = args.join(" ");
+  //   const response = seekTo(message, time);
+  //   const embed = new EmbedBuilder()
+  //   .setDescription(response)
+  //   .setColor("Red")
+  //   await message.safeReply({ embeds: [embed] });
+  // },
 
-  async interactionRun(interaction) {
-    const time = interaction.options.getString("time");
-    const response = seekTo(interaction, time);
-    const embed = new EmbedBuilder()
-    .setDescription(response)
-    .setColor(client.color)
-    await interaction.followUp({ embeds: [embed] });
-  },
+  // async interactionRun(interaction) {
+  //   const time = interaction.options.getString("time");
+  //   const response = seekTo(interaction, time);
+  //   const embed = new EmbedBuilder()
+  //   .setDescription(response)
+  //   .setColor(client.color)
+  //   await interaction.followUp({ embeds: [embed] });
+  // },
 };
 
 /**
  * @param {import("discord.js").CommandInteraction|import("discord.js").Message} arg0
  * @param {number} time
  */
-function seekTo({ client, guildId }, time) {
-  const player = client.musicManager?.getPlayer(guildId);
-  const seekTo = durationToMillis(time);
+// function seekTo({ client, guildId }, time) {
+//   const player = client.musicManager?.getPlayer(guildId);
+//   const seekTo = durationToMillis(time);
 
-  if (seekTo > player.queue.current.length) {
-    return "The duration you provide exceeds the duration of the current track";
-  }
+//   if (seekTo > player.queue.current.length) {
+//     return "The duration you provide exceeds the duration of the current track";
+//   }
 
-  player.seek(seekTo);
-  return `Seeked to ${prettyMs(seekTo, { colonNotation: true, secondsDecimalDigits: 0 })}`;
-}
+//   player.seek(seekTo);
+//   return `Seeked to ${prettyMs(seekTo, { colonNotation: true, secondsDecimalDigits: 0 })}`;
+// }
