@@ -62,26 +62,18 @@ module.exports = {
       })
       .setColor("Red")
       .setDescription(
-          `\`\`\`js\nPrefix: ${PREFIX}\nExtra information: <> If you see any error or any kind of bug please report to us!\n\nCommands for reports are: ${PREFIX}bugreport <text>\`\`\`\n**__My Features__**
-          Haruka Multipurpose bot with ${client.slashCommands.size} commands that can use for **Music**, **Giveaways** and **Moderation**, ETC.
-          
-          <:kanan:853461941397749802> **Command Categories:**
-          ${emo.filters} **|** \`Filters\`
-          ${emo.giveaways} **|** \`Giveaways\`
-          ${emo.moderation} **|** \`Moderation\`
-          ${emo.info} **|** \`Information\`
-          ${emo.music} **|** \`Music\`
-          ${emo.premium} **|** \`Premium\`
-          ${emo.utilities} **|** \`Utility\`
+          `
+          ⚙️ | Admin
+          \`farewell\`, \`welcome\`
+          🎵 | Music
+          \`247\`, \`autoplay\`, \`clear\`, \`join\`, \`leave\`, \`loop\`, \`lyrics\`, \`move\`, \`nowplaying\`, \`pause\, \`play\`, \`queue\`, \`radio\`, \`removetrack\`, \`replay\`, \`resume\`, \`search\`, \`seek\`, \`shuffle\`, \`skip\`, \`skipto\`, \`volume\`
+          🛠 | Utility
+          \`help\`, \`translate\`, \`weather\`, \`paste\`
           `
       )
-      .setFooter({
-          text: `© ${client.user.username} | Select A Category From The Menu Below.`,
-          iconURL: client.user.displayAvatarURL({ dynamic: true }),
-      })
       .setTimestamp();
 
-     message.reply({ content: `⏰ In **__1 minutes__** the next page will close`, components: [row, row2], embeds: [embed] });
+     message.reply({ embeds: [embed] });
   },
 
   async interactionRun(interaction) {
