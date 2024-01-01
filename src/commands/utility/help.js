@@ -64,11 +64,11 @@ module.exports = {
       .setDescription(
           `
           ⚙️ | Admin
-          \`farewell\`, \`welcome\`
+          farewell, welcome
           🎵 | Music
-          \`247\`, \`autoplay\`, \`clear\`, \`join\`, \`leave\`, \`loop\`, \`lyrics\`, \`move\`, \`nowplaying\`, \`pause\, \`play\`, \`queue\`, \`radio\`, \`removetrack\`, \`replay\`, \`resume\`, \`search\`, \`seek\`, \`shuffle\`, \`skip\`, \`skipto\`, \`volume\`
+          247, autoplay, clear, join, leave, loop, lyrics, move, nowplaying, pause\, play, queue, radio, removetrack, replay, resume, search, seek, shuffle, skip, skipto, volume
           🛠 | Utility
-          \`help\`, \`translate\`, \`weather\`, \`paste\`
+          help, translate, weather, paste
           `
       )
       .setTimestamp();
