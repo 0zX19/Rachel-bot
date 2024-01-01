@@ -20,7 +20,7 @@ module.exports = async (client, message) => {
 
 if (message.content.match("dor") || message.content.match("Dor")) {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
-      return await message.reply("https://cdn.discordapp.com/emojis/1188897663924584478.gif?size=80&quality=lossless").catch(() => { });
+      return await message.reply("<a:emoji_86:1188897663924584478> ").catch(() => { });
   };
 };
 
@@ -32,13 +32,13 @@ if (message.content.match("wlc") || message.content.match("welkam") || message.c
 
 if (message.content.match("kiss") || message.content.match("Kiss")) {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
-      return await message.reply("https://cdn.discordapp.com/emojis/1185361211144016045.gif?size=80&quality=lossless").catch(() => { });
+      return await message.reply("<a:kiss:1191194311216341093>").catch(() => { });
   };
 };
 
 if (message.content.match("wkwk")) {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
-      return await message.reply("https://cdn.discordapp.com/emojis/796900053439479829.gif?size=80&quality=lossless").catch(() => { });
+      return await message.reply("<a:wkwkwkw:1191194323316899880> ").catch(() => { });
   };
 };
 
@@ -50,13 +50,13 @@ if (message.content.match("batas1")) {
 
 if (message.content.match("kiw") || message.content.match("Kiw")) {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
-      return await message.reply("https://cdn.discordapp.com/emojis/1188901785339953342.gif?size=80&quality=lossless").catch(() => { });
+      return await message.reply("<a:kiw:1191194316111101982> ").catch(() => { });
   };
 };
 
 if (message.content.match("run") || message.content.match("Run")) {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
-      return await message.reply("https://cdn.discordapp.com/emojis/1185363566807765052.gif?size=80&quality=lossless").catch(() => { });
+      return await message.reply("<a:run:1191194318535413810>").catch(() => { });
   };
 }
 
