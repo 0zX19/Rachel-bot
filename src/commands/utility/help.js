@@ -60,7 +60,7 @@ module.exports = {
           name: `${message.guild.members.me.displayName} Help Command!`,
           iconURL: message.guild.iconURL({ dynamic: true }),
       })
-      .setColor(client.color)
+      .setColor("Red")
       .setDescription(
           `\`\`\`js\nPrefix: ${PREFIX}\nExtra information: <> If you see any error or any kind of bug please report to us!\n\nCommands for reports are: ${PREFIX}bugreport <text>\`\`\`\n**__My Features__**
           Haruka Multipurpose bot with ${client.slashCommands.size} commands that can use for **Music**, **Giveaways** and **Moderation**, ETC.
