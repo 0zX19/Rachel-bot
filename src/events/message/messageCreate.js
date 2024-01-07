@@ -54,7 +54,7 @@ if (message.content.toLowerCase() === "batas1") {
   };
 };
 
-if (message.content.toUpperCase() === "kiw" || message.content.toLowerCase() === "Kiw") {
+if (message.content.toLowerCase() === "kiw" || message.content.toLowerCase() === "Kiw") {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
       return await message.reply("<a:kiw:1191194316111101982> ").catch(() => { });
   };
