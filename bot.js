@@ -87,7 +87,7 @@ Chatting umum ⁠: <#1178931323012923445>
     .setThumbnail(member.user.displayAvatarURL())
     .setColor("Red")
     .setDescription(`──────────────────────────────────
-Selamat tinggal DI :flag_mc: **SOCIETY ACTIVITY** ${member} kembali lagi di lain waktu kawan
+Selamat tinggal DI ${member} kembali lagi di lain waktu kawan
 ──────────────────────────────────`)
     .setImage("https://media.discordapp.net/attachments/1182189079819984906/1182586377938944060/20231208_143546.gif?ex=65a0ebe3&is=658e76e3&hm=090865a34fbbcb249d095c62e4741e06d09353ad7a83406add4f021f9a24b472&=&width=400&height=224")
   
