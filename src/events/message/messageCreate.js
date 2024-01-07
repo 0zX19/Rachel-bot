@@ -24,43 +24,43 @@ module.exports = async (client, message) => {
 //     };
 // };
 
-if (message.content.match("dor") || message.content.match("Dor")) {
+if (message.content.toUpperCase() === "dor" || message.content.toLowerCase() === "Dor") {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
       return await message.reply("<a:emoji_86:1188897663924584478> ").catch(() => { });
   };
 };
 
-if (message.content.match("wlc") || message.content.match("welkam") || message.content.match("Welcome") || message.content.match("welcome") || message.content.match("Welkam")) {
+if (message.content.toUpperCase() === "wlc" || message.content.toLowerCase() === "welkam" || message.content.toUpperCase() === "Welcome" || message.content.toLowerCase() === "welcome" || message.content.toUpperCase() === "Welkam") {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
       return await message.reply("https://cdn.discordapp.com/attachments/820198470345293824/1189831614302265364/Picsart_23-12-17_17-39-34-551.jpg?ex=659f980a&is=658d230a&hm=d695f64fffba3ba92abfcfd6f388e3e27e94b42015706c3daee6fa2ad5d03382&").catch(() => { });
   };
 };
 
-if (message.content.match("kiss") || message.content.match("Kiss")) {
+if (message.content.toUpperCase() === "kiss" || message.content.toLowerCase() === "Kiss") {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
       return await message.reply("<a:kiss:1191194311216341093>").catch(() => { });
   };
 };
 
-if (message.content.match("wkwk")) {
+if (message.content.toLowerCase() === "wkwk" || message.content.toUpperCase() === "Wkwk") {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
-      return await message.reply("<a:wkwkwkw:1191194323316899880> ").catch(() => { });
+      return await message.reply("<a:wkwkwkw:1191194323316899880>").catch(() => { });
   };
 };
 
-if (message.content.match("batas1")) {
+if (message.content.toLowerCase() === "batas1") {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
       return await message.reply("https://media.discordapp.net/attachments/1182189079819984906/1183040923647627265/standard.gif?ex=659958b8&is=6586e3b8&hm=b10f5a8eb57879e4fd90d38f41aa0df61b2ba53baa6d4ccac5203995a737fd3c&").catch(() => { });
   };
 };
 
-if (message.content.match("kiw") || message.content.match("Kiw")) {
+if (message.content.toUpperCase() === "kiw" || message.content.toLowerCase() === "Kiw") {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
       return await message.reply("<a:kiw:1191194316111101982> ").catch(() => { });
   };
 };
 
-if (message.content.match("run") || message.content.match("Run")) {
+if (message.content.toUpperCase() === "run" || message.content.toLowerCase() === "Run") {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
       return await message.reply("<a:run:1191194318535413810>").catch(() => { });
   };
