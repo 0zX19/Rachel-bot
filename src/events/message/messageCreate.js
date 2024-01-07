@@ -12,11 +12,17 @@ module.exports = async (client, message) => {
   if (!message.guild || message.author.bot) return;
   const settings = await getSettings(message.guild);
 
-  if (message.content.match("Hi") || message.content.match("hi")) {
+   if (message.content.toUpperCase() === "Hi" || message.content.toLowerCase() === "hi" ) {
     if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
         return await message.reply("> **Salam kenal yang baru join** , **jangan lupa dibaca** ⁠<#1180016422592708690>  **dan take roles** ⁠<#1180017574176628837> **isi juga** ⁠<#1180307467037581452> **Terimakasih. Semoga betah yah disini**").catch(() => { });
     };
 };
+
+//   if (message.content.match("Hi") || message.content.match("hi")) {
+//     if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
+//         return await message.reply("> **Salam kenal yang baru join** , **jangan lupa dibaca** ⁠<#1180016422592708690>  **dan take roles** ⁠<#1180017574176628837> **isi juga** ⁠<#1180307467037581452> **Terimakasih. Semoga betah yah disini**").catch(() => { });
+//     };
+// };
 
 if (message.content.match("dor") || message.content.match("Dor")) {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
