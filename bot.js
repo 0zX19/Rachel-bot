@@ -10,7 +10,7 @@ const { checkForUpdates } = require("@helpers/BotUtils");
 const { initializeMongoose } = require("@src/database/mongoose");
 const { BotClient } = require("@src/structures");
 const { validateConfiguration } = require("@helpers/Validator");
-const { EmbedBuilder } = require("discord.js");
+const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require("discord.js");
 validateConfiguration();
 
 // initialize client
@@ -21,7 +21,12 @@ client.loadEvents("src/events");
 
 //Welcome General
 client.on("guildMemberAdd", async (member) => {
-  if (member.user.bot) return;
+      const row = new ActionRowBuilder()
+      .addComponents(new ButtonBuilder().setLabel("Rules").setEmoji("📃").setURL("https://discord.com/channels/1178931321834307636/1180016422592708690").setStyle(ButtonStyle.Link))
+      .addComponents(new ButtonBuilder().setLabel("Selfroles").setEmoji("🔖").setURL("https://discord.com/channels/1178931321834307636/1180017574176628837").setStyle(ButtonStyle.Link))
+      .addComponents(new ButtonBuilder().setLabel("About").setEmoji("🔎").setURL("https://discord.com/channels/1178931321834307636/1180016033759756369").setStyle(ButtonStyle.Link))
+      .addComponents(new ButtonBuilder().setLabel("Assignment").setEmoji("📇").setURL("https://discord.com/channels/1178931321834307636/1180017791420600410").setStyle(ButtonStyle.Link))
+      if (member.user.bot) return;
   if (!member && !member.guild && !member.guild.id) return;
   const guild = client.guilds.cache.get("1178931321834307636");
   const channel = guild.channels.cache.get("1178931323012923445")
@@ -44,7 +49,7 @@ Chat umum : <#1178931323012923445>
 })
   .setImage("https://cdn.discordapp.com/attachments/1185650958194192454/1187916017956044800/20231223_065105.gif?ex=6598a001&is=65862b01&hm=fbfe6a20cdbe2b0848ea4c2b390cfba47704b209090f701cfa88bd299668349d&")
 
-  channel.send({ content: `Hallo selamat datang ${member}`, embeds: [welcome]}).catch(() => { })
+  channel.send({ content: `Hallo selamat datang ${member}`, embeds: [welcome], components: [row]}).catch(() => { })
   });
 
 //Welcome Gateway
