@@ -44,7 +44,7 @@ if (message.content.toUpperCase() === "kiss" || message.content.toLowerCase() ==
 
 if (message.content.toLowerCase() === "wkwk" || message.content.toUpperCase() === "Wkwk") {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
-      return await message.reply("<a:wkwkwkw:1191194323316899880>").catch(() => { });
+      return await message.reply("<:doggokek:1183006346854010960>").catch(() => { });
   };
 };
 
@@ -54,15 +54,9 @@ if (message.content.toLowerCase() === "batas1") {
   };
 };
 
-if (message.content.toLowerCase() === "kiw" || message.content.toLowerCase() === "Kiw") {
-  if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
-      return await message.reply("<a:kiw:1191194316111101982> ").catch(() => { });
-  };
-};
-
 if (message.content.toUpperCase() === "run" || message.content.toLowerCase() === "Run") {
   if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
-      return await message.reply("<a:run:1191194318535413810>").catch(() => { });
+      return await message.reply("<a:emoji_78:1185363793136590898>").catch(() => { });
   };
 }
 
