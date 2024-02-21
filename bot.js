@@ -13,6 +13,12 @@ const { validateConfiguration } = require("@helpers/Validator");
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require("discord.js");
 validateConfiguration();
 
+const express = require('express');
+const app = express();
+const port = 443;
+app.get('/', (req, res) => res.send('SERVER READY !'));
+app.listen(port, () => console.log(`App is listening at http://localhost:${port}`));
+
 // initialize client
 const client = new BotClient();
 client.loadCommands("src/commands");
