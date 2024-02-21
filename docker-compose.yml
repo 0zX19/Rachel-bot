@@ -3,7 +3,7 @@ services:
     build: ./
     container_name: activitybot
     environment:
-    - BOT_TOKEN=MTE4OTgxODE0MDk4NTY3MTc1MA.Gcvr4q.NBKkjSC8soQaF86_3CciKsxQGkjXLUVjWvEW4E
+    - BOT_TOKEN=
     - MONGO_CONNECTION=mongodb+srv://avr02595:c3d1l123@cluster0.ctkgw.mongodb.net/activity?retryWrites=true&w=majority
     - ERROR_LOGS=https://discord.com/api/webhooks/1189820754922049606/zvlgCk3xfATxSq99GWlkWMC9w-Z7CQB7uqy3gwIREy24BBNYWygKvqcK6_TwsD1LJaHS
     - JOIN_LEAVE_LOGS=https://discord.com/api/webhooks/1154520476228522126/MHYrgG1feZA40Ca-OrjiZomFTp4PrpS2eZZwV9HQ3kfpHXrUdzfboz_t2S5aHD50mYof
