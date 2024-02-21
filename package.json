@@ -2,7 +2,7 @@
   "name": "discord-js-bot",
   "version": "5.4.0",
   "description": "An open-source, multipurpose discord bot built using discord-js",
-  "main": "bot.js",
+  "main": "node bot.js",
   "author": "Andri Hermawan",
   "license": "ISC",
   "engines": {
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "dev": "nodemon .",
-    "start": "node .",
+    "start": "node bot.js",
     "format": "prettier --write src",
     "docker:build": "docker build -t saitejamadha/discord-js-bot:5.4.0 ."
   },
